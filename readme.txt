@@ -1,0 +1,3 @@
+1. [returns unmatched UIDs] Show the difference (mismatch in the UCs) between the excel sheet with frozen list of OC UCs in the confluence with the excel sheet with current data exported from Devprom
+2. [Release scope FL OC]Return OC UCs with mapped FL UCs that have a different FIP than supposed to be for FL UCs. Checks if FL UCs are with the same release, for e.g OC UC with Product Release 2.1 are indeed decomposed to FL UCs with FIP 2.1
+3. [FIP display]Return OC UCs from later releases (e.g 2.2 and 2.3) that can be returned to earlier (e.g 2.1) by checking that mapped out FL UCs have the FIP corresponding to the same release as OC UC
